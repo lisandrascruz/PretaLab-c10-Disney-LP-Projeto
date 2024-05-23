@@ -1,0 +1,112 @@
+/* Adicionando estilos para o Material Design */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  background-image: url('./assets/background.png'); 
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin: 0
+}
+
+.descricao-container {
+  display: flex;
+  gap: 1rem;
+  padding: 0 60px;
+}
+
+.instrucao1 {
+  color: #666;
+  font-size: 1.2rem;
+  margin: 0
+}
+
+.instrucao2 {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.palpite-input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.palpites-container {
+  background: #ff08083b;
+  margin: 0 100px; 
+  padding: 10px 20px;
+  border-radius: 15px;
+  min-height: 38px;
+}
+
+.guess-button {
+  padding: 12px 20px;
+  background-color: #0F4870;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.guess-button:hover {
+  background-color: #0056b3;
+}
+
+.feedback {
+  height: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.reiniciar-botao {
+  padding: 10px 20px;
+  background-color: #F15079;
+  width: 200px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.reiniciar-botao:hover {
+  background-color: #f15079ba;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhaê</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adivinhaê</h1>
+        <p class="instrucao1">Tente adivinhar um número entre 1 e 100</p>
+
+        <div class="descricao-container">
+          <img src="./assets/magic-wand.png" width="60px">
+          <p class="instrucao2">Você começa com <b>100 pontos</b> e a cada palpite errado 10 pontos são retirados. Se você chegar a <b>0 pontos</b> você perde o jogo.</p>
+        </div>
+
+        <div class="input-container">
+            <input type="number" id="palpiteDigitado" class="palpite-input" placeholder="Insira seu palpite">
+            <button onclick="jogoDeAdivinhacao()" class="guess-button"><i class="fas fa-magic"></i> Adivinhar</button>
+        </div>
+        
+        <p id="pontuacao">
+          Você tem 100 pontos
+        </p>
+        
+        <div class="palpites-container">
+          <small><b>Palpites errados</b></small>
+          <p id="palpitesFalhos" class="instrucao2"></p> 
+        </div>
+        
+        <p id="feedback" class="feedback"></p>
+      </div>
+      <button onclick="reiniciarJogo()" class="reiniciar-botao"><i class="fas fa-redo-alt"></i> Reiniciar Jogo</button>
+
+    <script src="./src/script.js"></script>
+    <script src="./src/index.js"></script>
+</body>
+</html>
