@@ -6,7 +6,7 @@ Vamos iniciar um jogo de adivinhação projeto final do módulo de lógica de pr
 
 ## Funcionalidades do Adivinhaê
 ### ----- Momento guiado -----
-  1. [ ] Não aceitar palpites vazios.
+  1. [ x ] Não aceitar palpites vazios.
   2. [ ] Dar dicas a cada palpite errado.
   3. [ ] Atualizar a pontuação a cada palpite errado.
   4. [ ] Mostrar todos os palpites errados do jogo para evitar que repitam o erro.
