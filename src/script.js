@@ -28,15 +28,23 @@ function jogoDeAdivinhacao() {
     const novosPalpitesFalhos = palpitesFalhos + " " + palpiteDigitado;
     atualizarPalpitesFalhos(novosPalpitesFalhos);
 
+    const pontuacaoAtual = pegarPontuacao();
+    if (pontuacaoAtual === "Você tem 0 pontos") {
+        alert("deu ruim , boy! cocê chegou no limbo, acabou pra vc!");
+        reiniciarJogo();
+    }
+
 }
 
 function reiniciarJogo() {
     const vaiReiniciar = confirm("Deseja jogar novamente?");
 
+    // if (vaiReiniciar) {
     if (vaiReiniciar === true) {
         atualizarPalpitesFalhos("");
         atualizarPontuacao(100);
         atualizarFeedback("");
         limparPalpiteDigitado();
+
     }
 }

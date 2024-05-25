@@ -11,7 +11,7 @@ Vamos iniciar um jogo de adivinhação projeto final do módulo de lógica de pr
   3. [ x ] Atualizar a pontuação a cada palpite errado.
   4. [ x ] Mostrar todos os palpites errados do jogo para evitar que repitam o erro.
   5. [ x ] Possibilidade de poder reiniciar o jogo a qualquer momento.
-  6. [ ] Se a pontuação chegar a zero, deve ser exibido um alerta e o jogo reiniciado.
+  6. [ x ] Se a pontuação chegar a zero, deve ser exibido um alerta e o jogo reiniciado.
 
 ### ----- Momento individual -----
   7. [ ] Só deve aceitar numeros entre 1 e 100.
@@ -84,32 +84,32 @@ Para começar a praticar, siga estes passos:
 
 Certifique-se de seguir cada passo cuidadosamente para garantir que suas contribuições sejam integradas ao repositório original.
 
-- [ ] **Fork do Repositório:**
-   - [ ] Acesse o repositório de [origem](https://github.com/lisandrascruz/PretaLab-c10-Disney-LP-Projeto).
-   - [ ] No canto superior direito da página, clique no botão "Fork" para criar uma cópia do repositório para sua conta.
+- [ x ] **Fork do Repositório:**
+   - [ x ] Acesse o repositório de [origem](https://github.com/lisandrascruz/PretaLab-c10-Disney-LP-Projeto).
+   - [ x ] No canto superior direito da página, clique no botão "Fork" para criar uma cópia do repositório para sua conta.
 
-- [ ] **Clone do Fork na Sua Máquina:**
-   - [ ] No seu perfil do GitHub, acesse o fork do repositório que você acabou de criar.
-   - [ ] Clique no botão verde "Code" e copie o URL fornecido.
-   - [ ] Abra o terminal ou prompt de comando no diretório onde deseja clonar o repositório.
+- [ x ] **Clone do Fork na Sua Máquina:**
+   - [ x ] No seu perfil do GitHub, acesse o fork do repositório que você acabou de criar.
+   - [ x ] Clique no botão verde "Code" e copie o URL fornecido.
+   - [ x ] Abra o terminal ou prompt de comando no diretório onde deseja clonar o repositório.
    - [ ] Execute o comando `git clone URL-do-seu-fork`.
 
-- [ ] **Prepare-se para as mudanças:**
-   - [ ] Navegue para o diretório do projeto usando o comando `cd nome-do-repositório` ou abra a pasta de forma visual.
+- [ x ] **Prepare-se para as mudanças:**
+   - [ x ] Navegue para o diretório do projeto usando o comando `cd nome-do-repositório` ou abra a pasta de forma visual.
 
-- [ ] **Inserir sua Resposta:**
-   - [ ] Dentro da pasta "src", localize o arquivo script.js.
-   - [ ] Edite o arquivo implementando as funcionalidades.
+- [ x ] **Inserir sua Resposta:**
+   - [ x ] Dentro da pasta "src", localize o arquivo script.js.
+   - [ x ] Edite o arquivo implementando as funcionalidades.
 
-- [ ] **Adicione as Mudanças:**
-   - [ ] Para adicionar todas as alterações, execute o comando `git add .` 
-   - [ ] Se preferir adicionar apenas um arquivo específico, use `git add nome_do_arquivo`.
+- [ x ] **Adicione as Mudanças:**
+   - [ x ] Para adicionar todas as alterações, execute o comando `git add .` 
+   - [ x ] Se preferir adicionar apenas um arquivo específico, use `git add nome_do_arquivo`.
 
-- [ ] **Commit das Mudanças:**
-   - [ ] Commit cada mudança faça um commit utilizando o comando `git commit -m "Mensagem do commit"`.
+- [ x ] **Commit das Mudanças:**
+   - [ x ] Commit cada mudança faça um commit utilizando o comando `git commit -m "Mensagem do commit"`.
 
-- [ ] **Envie as Alterações para o GitHub:**
-   - [ ] Envie os commits para sua branch usando o comando `git push`.
+- [ x ] **Envie as Alterações para o GitHub:**
+   - [ x ] Envie os commits para sua branch usando o comando `git push`.
 
 - [ ] **Publique no netlify**
 
